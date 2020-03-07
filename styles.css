@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height:100vh;
+    background:purple;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-click{
+    padding: 10px 30px;
+    background:transparent;
+    font-size:18px;
+    text-transform: capitalize;
+    color:#808080;
+    border:5px solid #808080;
+    cursor:pointer;
+    transition: all 2s ease-in;
+}
+
+.btn-click:hover{
+    background:#808080;
+    color:white;
+}
